@@ -1,0 +1,15 @@
+{
+  "name": "zip-unzip-downloader",
+  "version": "1.0.0",
+  "main": "api/upload.js",
+  "scripts": {
+    "start": "vercel dev"
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "formidable": "^3.5.2",
+    "mime-types": "^2.1.35",
+    "stream-buffers": "^3.0.2",
+    "vercel": "^28.0.0"
+  }
+}
