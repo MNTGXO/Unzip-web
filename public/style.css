@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  background: #f0f0f0;
+  margin: 0; padding: 0;
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+#fileList li {
+  margin: 5px 0;
+}
+#fileList a {
+  color: #0066cc;
+  text-decoration: none;
+}
+#fileList a:hover {
+  text-decoration: underline;
+}
