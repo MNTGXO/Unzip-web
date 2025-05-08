@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Unzip Web</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Upload ZIP to Unzip</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="zips" id="zips" accept=".zip" />
+      <button type="submit">Upload & List Files</button>
+    </form>
+    <div id="progress"></div>
+    <ul id="fileList"></ul>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
